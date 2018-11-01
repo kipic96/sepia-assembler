@@ -1,0 +1,20 @@
+12.11.2017
+Dzialacy w asemblerze algorytm zamieniania obrazu na odcienie szarosci, 
+bez sepii, na single intach. Wątki na asemblerze jeszcze nie dzialaja.
+
+18.11.2017
+Naprawione watki w asemblerze.
+
+8.12.2017
+Przebudowa całego projektu z tablic bajtow na tablice floatow (jak zapisywane byly piksele). 
+Dllki dostaja teraz jako argumenty tablice floatow z pikselami, gotowymi wspolczynnikami 
+sepii (do dodania na koncu), wspolczynnikami do odcieni szarosci (do przemnozenia) oraz asembler
+dostaje dodatkowo tablice floatow z wartosciami (255, 255, 255, 255) aby ograniczyc ilosc 
+niepotrzebnego kodu w samej dllce.
+Gotowy caly algorytm w asemblerze na operacjach wektorowych, dziala na wszystkich watkach.
+Asembler jest duzo szybszy niz C.
+
+9.12.2017 version 1.0
+Uruchomiony program na wersji Release.
+Przeprowadzone wstepne testy. Algorytmy maja podobne czasy wykonania.
+Zaktualizowane wersje .exe i .dll w Plik_exe
