@@ -1,9 +1,8 @@
 Marcin Chilicki
-Semestr 5, Grupa 3, Sekcja 5 2017/2018
+Semester 5, Group 3, Section 5 2017
 
-Projekt JA
-Efekt sepii
+Project Assembler Languages
+Sepia effect
 
-Projekt ma na celu porównanie czasów wykonania dwóch algorytmów do zamiany 
-obrazu kolorowego na obraz z efektem sepii.
-Algorytmy są napisane w C oraz Asemblerze (MASM).
+Project objective is to compare two different sepia effect algorithm implementations.
+One is in MASM Assembler Language, second is in C++.
